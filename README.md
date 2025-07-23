@@ -1,5 +1,6 @@
 # RolioFirmware
-This repository contains the firmware for the Rolio46 split wireless keyboard.
+This repository contains the firmware for the Rolio46 split wireless keyboard - forked and modified
+to use the Chorus Keymap.
 
 You can view a demo of its features in the video below:
 
