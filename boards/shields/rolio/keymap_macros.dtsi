@@ -16,19 +16,19 @@
             #binding-cells = <1>;
             bindings = <&bt BT_CLR>;
         };
-        // Utilities so that Studio's use of "df" looks nice
-        df_mac: df_mac {
-            display-name = "Set Connection Default Layer to MacOS";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&df MACOS>;
-        };
-        df_win: df_win {
-            display-name = "Set Connection Default Layer to Windows";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&df WINDOWS>;
-        };
+        // // Utilities so that Studio's use of "df" looks nice
+        // df_mac: df_mac {
+        //     display-name = "Set Connection Default Layer to MacOS";
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     bindings = <&df MACOS>;
+        // };
+        // df_win: df_win {
+        //     display-name = "Set Connection Default Layer to Windows";
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     bindings = <&df WINDOWS>;
+        // };
         // Invoke MacOS dictation
         mac_talk: mac_talk {
             display-name = "MacOS Dictation";
