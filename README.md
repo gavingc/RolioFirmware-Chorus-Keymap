@@ -1,14 +1,15 @@
 # RolioFirmware
-This repository contains the firmware for the Rolio46 split wireless keyboard - forked and modified
+This repository contains firmware for the Rolio46 split wireless keyboard - forked and modified
 to use the Chorus Keymap.
 
-You can view a demo of its features in the video below:
+Learn about the principles and features of the Chorus Keymap:
 
-[![Watch the video](doc/images/video_thumbnail.png)](https://www.youtube.com/watch?v=ROdyQWcNV8Y)
+https://github.com/gavingc/cantor-chorus-keymap
 
-If you'd like to build your own Rolio46 you can find resources at the following two links:
- * [Rolio46 Github](https://github.com/MickiusMousius/Rolio46Keyboard) - All the reousurces to build your own PCBs etc
- * [Keydio.io](https://keydio.io) - Online store to buy a complete kit or just some parts to build your own Rolio46
+Learn about the Rolio46 split wireless keyboard:
+
+https://github.com/MickiusMousius/Rolio46Keyboard
+https://github.com/MickiusMousius/RolioFirmware
 
 <br/>
 
@@ -21,9 +22,11 @@ This repository will produce firmware for the following controller & display com
    * nice!nano / ProMicro NRF52840
    * Mikoto 7.20
 
+NOTE: some of the above builds might be disabled by default in this repo, but can be re-enabled.
+
 You should hopefully be able to infer what files inside the release zip each mean.
 
-The firmware.zip can be found in the "[Releases](https://github.com/MickiusMousius/RolioFirmware/releases/)" area.
+The firmware.zip can be found in the "[Actions](https://github.com/gavingc/RolioFirmware-Chorus-Keymap/actions)" area.
 
 To flash your Rolio46 use the following steps:
  1. Plug your right hand side Rolio into your computer.
@@ -53,6 +56,9 @@ The Rolio46 has a few more layers than a regular keyboard. This is done to keep 
 <br/>
 
 # About The Key Map
+
+NOTE: this repos provides the Chorus Keymap - layout diagrams are under construction - for now it is possible to view the layout and functions in ZMK
+Studio. The keymap is a combination of the Chorus Keymap, and the bluetooth functions below.
 
 The Rolio46 comes with a built in set of layouts (and layers) for Windows & MacOS. You can use [ZMK Studio](https://zmk.studio/download) to customise these layouts any time, or if you're adventurous you can clone this repository & edit the keymap file to make far more advanced customisations.
 
