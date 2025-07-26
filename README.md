@@ -60,6 +60,8 @@ The Rolio46 has a few more layers than a regular keyboard. This is done to keep 
 NOTE: this repos provides the Chorus Keymap - layout diagrams are under construction - for now it is possible to view the layout and functions in ZMK
 Studio. The keymap is a combination of the Chorus Keymap, and the bluetooth functions below.
 
+NOTE: ZMK_STUDIO_LOCKING has been enabled, the unlock button is on the Settings layer: left bottom pinky button.
+
 The Rolio46 comes with a built in set of layouts (and layers) for Windows & MacOS. You can use [ZMK Studio](https://zmk.studio/download) to customise these layouts any time, or if you're adventurous you can clone this repository & edit the keymap file to make far more advanced customisations.
 
 To interpret the diagrams below use the following rules:
